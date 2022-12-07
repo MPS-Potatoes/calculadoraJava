@@ -36,16 +36,6 @@ public class App {
             {
                 System.out.println("El resultado de la resta es: " + resta(a,b)+ "\n");
             }break;
-            case 3:
-            {
-                System.out.println("El resultado del producto es: " + producto(a,b)+ "\n");
-            }break;
-            case 4:
-            {
-                if(b==0) System.out.println("Esta operacion no puede realizarse.\n");
-                else
-                    System.out.println("El resultado de la division es: " + division(a,b)+ "\n");
-            }break;
         }
         System.out.println("¿Quieres realizar otra operacion? S/N\n");
         seguir=leer.next().charAt(0);
