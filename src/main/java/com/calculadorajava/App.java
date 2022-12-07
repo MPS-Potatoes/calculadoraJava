@@ -1,6 +1,6 @@
 package com.calculadorajava;
 import java.util.*;
-public class calcu {
+public class App {
     public static int suma(int a, int b)
     {
         return a+b;
