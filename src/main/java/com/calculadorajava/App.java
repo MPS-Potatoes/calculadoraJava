@@ -9,14 +9,7 @@ public class App {
     {
         return a-b;
     }
-    public static int producto(int a, int b)
-    {
-        return a*b;
-    }
-    public static double division(int a, int b)
-    {
-        return (double)a/(double)b;
-    }
+    
     public static void main(String args[])
     {
         Scanner leer=new Scanner(System.in);
